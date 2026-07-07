@@ -1,4 +1,2 @@
-id,title,description,severity,cvss_score,cve_id,asset_id,port,protocol,status,discovered_by,discovered_date,remediation,notes
-VULN-001,Unauthenticated Remote Code Execution (Log4Shell),The Apache Log4j library is vulnerable to unauthenticated remote code execution via JNDI injection.,Critical,10.0,CVE-2021-44228,AST-001,443,HTTPS,Open,Nmap Script,2026-07-06,Update Log4j to version 2.17.1 or higher.,Found running inside the Tomcat container.
-VULN-002,SMB Signing Not Required,SMB signing is not enforced on the target host allowing for NTLM relay attacks.,Medium,5.3,N/A,AST-002,445,SMB,Open,Nmap Script,2026-07-06,Enforce SMB signing via Group Policy.,Standard misconfiguration.
-VULN-003,Anonymous FTP Access,The FTP server allows anonymous login exposing sensitive internal documents.,High,7.5,N/A,AST-003,21,FTP,Investigating,Manual,2026-07-07,Disable anonymous login in vsftpd.conf.,Exposed config files found on the share.
+id,title,description,severity,cvss_score,asset_id,subdomain_id,port,protocol,status,remediation,notes
+VULN-001,SQL Injection in Login,Union-based SQLi found on login parameter.,Critical,9.8,AST-001,SUB-001,443,HTTPS,Open,Use prepared statements.,Found via sqlmap.

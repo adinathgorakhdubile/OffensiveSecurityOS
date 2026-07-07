@@ -1,0 +1,2 @@
+id,domain,subdomain,ip_address,cname,ports,tech_stack,status,discovered_date
+SUB-001,target.com,api.target.com,192.168.1.100,NULL,80;443,NodeJS,Active,2026-07-07
