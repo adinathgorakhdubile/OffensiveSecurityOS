@@ -1,1 +1,1 @@
-id,client,start_date,end_date,type,status
+id,client_name,engagement_type,start_date,end_date,status,lead_tester,scope_notes

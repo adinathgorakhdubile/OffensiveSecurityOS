@@ -1,1 +1,1 @@
-id,title,severity,cvss,asset_id,status,discovered_date
+id,title,description,severity,cvss_score,cve_id,asset_id,port,protocol,status,discovered_by,discovered_date,remediation,notes

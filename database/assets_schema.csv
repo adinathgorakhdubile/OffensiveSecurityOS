@@ -1,1 +1,1 @@
-id,hostname,ip_address,os,criticality,owner,status
+id,hostname,ip_address,mac_address,os,os_version,criticality,owner,status,tags,last_scanned,notes
