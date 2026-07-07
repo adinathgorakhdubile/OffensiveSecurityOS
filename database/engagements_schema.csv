@@ -1,1 +1,4 @@
 id,client_name,engagement_type,start_date,end_date,status,lead_tester,scope_notes
+ENG-2026-001,Acme Corp,Internal Penetration Test,2026-07-01,2026-07-15,In Progress,Kali User,Full internal corporate network. Excludes production DBs.
+ENG-2026-002,Initech,External Network Pentest,2026-08-01,2026-08-10,Scheduled,Kali User,Targeting external ASNs and web perimeters.
+ENG-2026-003,Stark Industries,Red Team Assessment,2026-05-10,2026-06-25,Completed,Kali User,Objective-based assessment testing physical and cyber controls.

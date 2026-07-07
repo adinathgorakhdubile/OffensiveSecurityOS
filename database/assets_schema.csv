@@ -1,1 +1,4 @@
 id,hostname,ip_address,mac_address,os,os_version,criticality,owner,status,tags,last_scanned,notes
+AST-001,web01.acme.local,10.0.1.15,00:1A:2B:3C:4D:5E,Linux,Ubuntu 22.04 LTS,High,IT Ops,Active,"web, dmz, production",2026-07-06,Primary corporate web server.
+AST-002,dc01.acme.local,10.0.0.5,00:5E:4D:3C:2B:1A,Windows,Windows Server 2022,Critical,Domain Admin,Active,"dc, ad, production",2026-07-06,Primary domain controller.
+AST-003,dev-db.acme.local,10.0.2.50,AA:BB:CC:DD:EE:FF,Linux,Debian 11,Low,Dev Team,Inactive,"db, development",2026-06-15,Legacy dev database to be decommissioned.
